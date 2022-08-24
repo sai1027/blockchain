@@ -8,3 +8,9 @@ else if(s1==s2 || s2==s3 || s3==s1 )
     console.log("Isosceles triangle");
 else
     console.log("Scalene triangle");
+
+
+
+    //   output
+    
+    // Scalene triangle
