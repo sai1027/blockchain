@@ -1,0 +1,48 @@
+1.	Higher order function and callback function are different.
+
+	Higher order function: 
+	Function which takes another function as an arguments is called HOF.
+
+	Callback function:
+	Function which gets passed as an argument to another function is called CBF.
+
+
+2.	Yes. filter is HOF. Filter can take functions as argument.
+	
+	Eg: 
+
+	let arr=[2,6,8,5,7];
+	
+	function isEven(num){
+		return(num%2==0)
+	}
+
+	arr=arr.filter(isEven);
+	console.log(arr);
+
+
+3.	function add(a,b){
+	console.log(a+b);
+	}
+
+	function cal(x,y,operator){
+	return operator(x,y);
+	}
+
+	cal(5,2,add);
+
+
+	Here add is callback function. function cal is HIgher order function.
+
+
+4.	a) output:
+	Hello John
+	Hello Tina
+	Hello Kale
+	Hello Max
+
+	
+	b) The higher order function is useFunction()
+	
+	
+
